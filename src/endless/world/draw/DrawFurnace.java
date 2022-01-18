@@ -33,7 +33,6 @@ public class DrawFurnace extends DrawBlock {
   @Override
   public void draw(GenericCrafter.GenericCrafterBuild build){
     Draw.rect(bottom, build.x, build.y);
-    Draw.rect(build.block.region, build.x, build.y);
     
     if(build.warmup > 0 && flameColor.a > 0.000f){
       Draw.blend(Blending.additive);
@@ -43,6 +42,8 @@ public class DrawFurnace extends DrawBlock {
       Draw.blend();
       Draw.reset();
     }
+    
+    Draw.rect(build.block.region, build.x, build.y);
     
     Draw.rect(top, build.x, build.y);
   }
