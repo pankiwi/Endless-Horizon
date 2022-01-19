@@ -12,6 +12,7 @@ import mindustry.entities.bullet.*;
 import mindustry.gen.*;
 import mindustry.graphics.*;
 import mindustry.type.*;
+import mindustry.ctype.*;
 import mindustry.ui.*;
 import mindustry.world.*;
 import mindustry.world.meta.*;

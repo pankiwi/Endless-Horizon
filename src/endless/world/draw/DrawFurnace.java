@@ -50,7 +50,7 @@ public class DrawFurnace extends DrawBlock {
   }
   
   @Override
-  public void drawLight(GenericCrafterBuild build){
+  public void drawLight(GenericCrafter.GenericCrafterBuild build){
     Drawf.light(build.team, build.x, build.y, (lightRadius + Mathf.absin(lightSinScl, lightSinMag)) * build.warmup * build.block.size, flameColor, lightAlpha);
   }
   @Override
