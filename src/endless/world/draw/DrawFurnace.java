@@ -15,7 +15,7 @@ public class DrawFurnace extends DrawBlock {
   public Color flameColor = Color.valueOf("ffc999");
   public TextureRegion top, heat, bottom;
   public float flameSinScl = 8f, flameSclMag = 0.6f;
-  public float lightRadius = 60f, lightSinScl = 10f, lightSinMag = 10f, lightAlpha = 0.67;
+  public float lightRadius = 60f, lightSinScl = 10f, lightSinMag = 10f, lightAlpha = 0.67f;
   
   public DrawFurnace(){
   }
