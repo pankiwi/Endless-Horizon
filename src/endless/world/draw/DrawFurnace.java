@@ -15,6 +15,7 @@ public class DrawFurnace extends DrawBlock {
   public Color flameColor = Color.valueOf("ffc999");
   public TextureRegion top, heat, bottom;
   public float flameSinScl = 8f, flameSclMag = 0.6f;
+  public float lightRadius = 60f, lightSinScl = 10f, lightSinMag = 10f, lightAlpha = 0.67;
   
   public DrawFurnace(){
   }
@@ -49,8 +50,12 @@ public class DrawFurnace extends DrawBlock {
   }
   
   @Override
+  public void drawLight(GenericCrafterBuild build){
+    Drawf.light(build.team, build.x, build.y, (lightRadius + Mathf.absin(lightSinScl, lightSinMag)) * build.warmup * build.block.size, flameColor, lightAlpha);
+  }
+  @Override
   public TextureRegion[] icons(Block block){
     return new TextureRegion[]{bottom, block.region, top};
   }
  
-}
+};

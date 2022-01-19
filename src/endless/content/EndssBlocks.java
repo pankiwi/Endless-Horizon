@@ -48,4 +48,4 @@ public class EndssBlocks implements ContentList {
       consumes.power(1f);
     }};
   }
-}
+};

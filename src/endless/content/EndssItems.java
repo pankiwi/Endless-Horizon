@@ -14,4 +14,4 @@ public class EndssItems implements ContentList {
       cost = 2;
     }};
   }
-}
+};
