@@ -11,13 +11,13 @@ author: "[accent]Pankiwi[]"
 main: "Endss.EndlessHorizon"
 
 #the mod description as seen in the mod dialog
-description: "is jar mod"
+description: "is jar mod."
 
 #the mod version
 version: 1.0
 
 #the minimum game build required to run this mod
-minGameVersion: 129
+minGameVersion: 130
 
 #this is a java mod
 java: true

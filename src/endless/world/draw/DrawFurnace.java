@@ -58,4 +58,4 @@ public class DrawFurnace extends DrawBlock {
     return new TextureRegion[]{bottom, block.region, top};
   }
  
-};
+}
