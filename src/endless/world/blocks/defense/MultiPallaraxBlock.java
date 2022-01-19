@@ -1,4 +1,4 @@
-//package Endlss.world.blocks.defense;
+package Endlss.world.blocks.defense;
 
 import arc.*;
 import arc.graphics.*;
@@ -15,6 +15,7 @@ import mindustry.type.*;
 import mindustry.ctype.*;
 import mindustry.ui.*;
 import mindustry.world.*;
+import mindustry.world.blocks.*;
 import mindustry.world.meta.*;
 
 public class MultiPallaraxBlock extends Block {
